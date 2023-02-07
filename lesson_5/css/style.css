@@ -1,0 +1,52 @@
+@import url(reset.css);
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,700&display=swap);
+
+body{
+   font-family: "Poppins" ;
+  
+}
+
+.wraper{
+   max-width: 1240px;
+   margin: 0 auto;
+}
+
+.container{
+   max-width: 816px;
+   margin: 0 auto;
+}
+
+.title{
+   font-weight: 700;
+   font-size: 25px;
+   line-height: 40px;
+   margin-bottom: 40px;
+}
+
+.text p{
+   font-weight: 300;
+   font-size: 14px;
+   line-height: 25px;
+   
+}
+
+.text p:not(:last-child){
+   margin-bottom: 20px;
+}
+.text{
+   margin-bottom: 80px;
+}
+
+img{
+   margin-bottom: 80px;
+}
+
+.firstimage{
+   margin-right:30px ;
+}
+
+.text-last{
+   padding-bottom:60px ;
+}
+
