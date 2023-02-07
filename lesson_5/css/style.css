@@ -15,8 +15,12 @@ body{
 .container{
    max-width: 816px;
    margin: 0 auto;
+   margin-bottom: 80px;
 }
-
+ .image{
+   font-size: 0;
+   margin-bottom: 80px;
+ }
 .title{
    font-weight: 700;
    font-size: 25px;
@@ -34,19 +38,13 @@ body{
 .text p:not(:last-child){
    margin-bottom: 20px;
 }
-.text{
-   margin-bottom: 80px;
-}
 
-img{
-   margin-bottom: 80px;
-}
 
 .firstimage{
    margin-right:30px ;
 }
 
 .text-last{
-   padding-bottom:60px ;
+   padding-bottom: 60px;
 }
 
