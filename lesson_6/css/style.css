@@ -15,18 +15,59 @@ body{
    margin: 0 auto;
 }
 
-.image-big {
-   max-width:100%;
+.article{
+   max-width: 815px;
+   margin: 0 auto;
 }
 
-.big {
-   max-width: 100%;
+.big{
+   width: 100%;
 }
 
-.wraper{
-   max-width: 100%;
+h1,h2 {
+   font-size: 25px;
+   color: #212529;
+   line-height: 40px;
+   font-weight: 700;
 }
 
-img{
-   max-width: 100%;
+.image{
+   margin-bottom: 80px;
+   font-size: 0;
+
+}
+
+.text{
+   margin-bottom: 80px;
+}
+
+p{
+   line-height: 25px;
+}
+
+p:not(:last-child){
+   margin-bottom: 30px;
+}
+.title{
+   margin-bottom: 45px;
+}
+
+.last{
+   padding-bottom:80px ;
+}
+
+h1{
+   padding-top: 80px;
+}
+
+.title-bottom{
+   padding-top:70px;
+}
+
+.fantom{
+   margin-right: 30px;
+}
+
+.radius{
+   border-radius: 5px;
 }
