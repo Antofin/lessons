@@ -19,7 +19,10 @@ body{
    max-width: 815px;
    margin: 0 auto;
 }
-
+ 
+img{
+   max-width: 100%;
+}
 .big{
    width: 100%;
 }
