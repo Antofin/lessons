@@ -98,12 +98,7 @@ background:url(../img/speaker\ 1.jpg) 885px 90px no-repeat, linear-gradient(103d
 
 /* third task */
 .unorder{
-   font-family: "Inter";
-   font-weight: 700;
-   font-size: 16px;
-   line-height: 1;
-   color: #637381;
-   padding: 50px;
+padding: 50px;
  background: rgb(244,243,245);
 background: linear-gradient(103deg, rgba(244,243,245,1) 0%, rgba(195,226,231,1) 38%, rgba(5,174,194,1) 55%, rgba(9,154,165,1) 61%, rgba(7,127,136,1) 67%, rgba(7,116,124,1) 73%, rgba(6,98,105,1) 78%, rgba(3,76,82,1) 83%, rgba(2,52,57,1) 89%);
 }
@@ -111,13 +106,23 @@ background: linear-gradient(103deg, rgba(244,243,245,1) 0%, rgba(195,226,231,1) 
 .list ul{
    margin-bottom: 100px;
 }
+
+.list ul> li{
+font-family: "Inter";
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 1;
+   color: #637381;
+}
 .list ul> li:not(:last-child){
-   margin-bottom:18px ;
+   margin-bottom:18px;
+   
 }
 
 .blue-point li{
-   background: url(../img/marks/01.svg) 0 0/ 8px no-repeat;
+   background: url(../img/marks/01.svg) 0 4px/ 8px no-repeat;
    padding-left: 18px;
+   
 
 }
 
@@ -137,7 +142,7 @@ background: linear-gradient(103deg, rgba(244,243,245,1) 0%, rgba(195,226,231,1) 
 }
 
 .arrow-right li{
-   background: url(../img/marks/arrow-right.svg) 0 0/17px no-repeat ;
+   background: url(../img/marks/arrow-right.svg) 0 2px/17px no-repeat ;
    padding-left: 30px;
 }
 
