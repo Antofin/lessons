@@ -21,6 +21,11 @@ header{
    background: grey url(../img/background01.jpg) center/cover no-repeat ;
 }
 
+.block{
+   max-width: 605px;
+}
+
+
 .block h1{
    color: #F8F9FA;
    font-size: 25px;
@@ -42,7 +47,7 @@ color:#E5E5E5 ;
 .second-header{
 min-height: 560px;
 background: rgb(244,243,245);
-background:url(../img/speaker\ 1.jpg) 885px 90px no-repeat, linear-gradient(103deg, rgba(244,243,245,1) 0%, rgba(243,241,244,1) 68%, rgba(237,202,230,1) 68%, rgba(230,200,228,1) 71%, rgba(216,197,223,1) 71%) center/cover no-repeat;
+background: linear-gradient(103deg, rgba(244,243,245,1) 0%, rgba(243,241,244,1) 68%, rgba(237,202,230,1) 68%, rgba(230,200,228,1) 71%, rgba(216,197,223,1) 71%) center/cover no-repeat;
 }
 
 .second-header-container{
@@ -51,11 +56,18 @@ background:url(../img/speaker\ 1.jpg) 885px 90px no-repeat, linear-gradient(103d
    padding-left: 15px;
    padding-right: 15px;
    font-family: "Inter";
-   padding-top: 150px;
+   padding-top: 80px;
+   padding-bottom: 85px;
 }
 .block-text{
-   /* padding-top: 150px; */
-   margin-bottom: 35px;
+   max-width:570px ;
+   display: inline-block;
+   font-size: 0;
+   margin-right: 179px;
+}
+
+.block-text *:last-child{
+   margin-bottom: 0;
 }
 .price{
    color: #3056D3; 
@@ -70,10 +82,7 @@ background:url(../img/speaker\ 1.jpg) 885px 90px no-repeat, linear-gradient(103d
    font-weight: 700;
    line-height: 1.25;
    color: #212B36;
-   max-width: 100%;
-   width: 470px;
    margin-bottom: 15px;
-   
 }
 
 .text{
@@ -81,26 +90,29 @@ background:url(../img/speaker\ 1.jpg) 885px 90px no-repeat, linear-gradient(103d
    color:#637381 ;
    font-weight: 500;
    line-height: 1.5;
-   max-width: 570px;
+   margin-bottom: 35px;
 }
 
 .button{
-   max-width: 139px;
+   display: inline-block;
    background-color:#3056D3 ;
-   min-height: 44px;
+   padding:10px 30px ;
    border-radius: 30px;
    text-align: center;
-   padding-top: 10px;
    font-size: 16px;
    line-height: 1.5;
    color: #FFFFFF;
 }
+
+
+
 
 /* third task */
 .unorder{
 padding: 50px;
  background: rgb(244,243,245);
 background: linear-gradient(103deg, rgba(244,243,245,1) 0%, rgba(195,226,231,1) 38%, rgba(5,174,194,1) 55%, rgba(9,154,165,1) 61%, rgba(7,127,136,1) 67%, rgba(7,116,124,1) 73%, rgba(6,98,105,1) 78%, rgba(3,76,82,1) 83%, rgba(2,52,57,1) 89%);
+background-position: center;
 }
 
 .list ul{
