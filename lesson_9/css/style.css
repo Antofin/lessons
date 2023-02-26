@@ -1,0 +1,256 @@
+@import url(reset.css);
+
+@import url(https://fonts.googleapis.com/css?family=Inter:300,700&display=swap);
+
+body{
+   font-family: Inter;
+   font-weight: 700;
+   font-size: 16px;
+}
+.blue-background{
+   padding: 50px;
+   border-radius: 50px;
+}
+.icons div{
+   margin-right: 20px;
+}
+ .icons{
+   margin-bottom: 50px;
+ }
+ h2{
+   text-align: center;
+   margin-bottom: 40px;
+   color: #3056D3;
+   font-size: 24px;
+}
+
+.blue-background{
+   background-color: #30c8d3;
+}
+
+.buisness {
+   background: url(../img/icons/Logo.svg) no-repeat ;
+   width: 200px;
+   height: 44px;
+   display: inline-block;
+}
+
+.phone{
+   background: url(../img/icons/Group-phone.svg) no-repeat;
+   width: 50px;
+   height: 50px;
+   display: inline-block;
+}
+
+.arrow{
+   background: url(../img/icons/arrow-right.svg) no-repeat;
+   width: 20px;
+   height: 20px;
+   display: inline-block;
+   margin-bottom: 20px;
+}
+
+
+.letter{
+   background: url(../img/icons/letter.svg)  no-repeat;
+   width: 60px;
+   height: 40px;
+   display: inline-block;
+    }
+
+    .phone-back{
+      background: url(../img/icons/phone.svg) no-repeat;
+      width: 60px;
+      height: 50px;
+      display: inline-block;
+    }
+
+    .location{
+      background: url(../img/icons/loc.svg) no-repeat;
+      width: 60px;
+      height: 55px;
+      display: inline-block;
+    }
+
+    .logo-white{
+      background: url(../img/icons/Logo-whiteback.svg) no-repeat;
+      width: 200px;
+      height: 44px;
+      display: inline-block;
+    }
+
+    .facebook{
+      background: url(../img/icons/facebook.svg) no-repeat;
+      width: 20px;
+      height: 20px;
+      display: inline-block;
+    }
+
+    .tweeter{
+      background: url(../img/icons/twitter.svg) no-repeat;
+      width: 20px;
+      height: 20px;
+      display: inline-block;
+    }
+
+    .instagram{
+      background: url(../img/icons/instagram.svg) no-repeat;
+      width: 20px;
+      height: 20px;
+      display: inline-block;
+      
+    }
+
+    .linkdink{
+      background: url(../img/icons/linkedin.svg) no-repeat;
+      width: 20px;
+      height: 20px;
+      display: inline-block;
+   }
+
+   .description{
+      color: #fff;
+   }
+
+   .design{
+      margin-bottom: 50px;
+   }
+   .cover{
+   padding: 50px;
+   background: yellow;
+   border-radius: 30px;
+   }
+
+   .cover div {
+      margin-right: 20px;
+   }
+   .dottedts-blue{
+      background: url(../img/icons/Dotted-Shape.svg) no-repeat;
+      width: 106px;
+      height: 115px;
+      display: inline-block;
+   }
+
+   .oval-blue{
+   background: url(../img/icons/Ovalblue.svg) no-repeat;
+   width: 55px;
+   height: 55px;
+   border-radius: 10px;
+   display: inline-block;
+   }
+
+   .oval-green{
+   background: url(../img/icons/Ovalgreen.svg) no-repeat;
+   width: 55px;
+   height: 55px;
+   border-radius: 10px;
+   display: inline-block
+   }
+
+   .rec-blue{
+      background: url(../img/icons/Rectangleblue.svg) no-repeat;
+      width: 160px;
+   height: 155px;
+   display: inline-block
+   }
+
+   .rec-green{
+   background: url(../img/icons/Rectanglegreen.svg) no-repeat;
+   width: 164px;
+   height: 164px;
+   display: inline-block
+   }
+
+   .shape{
+background: url(../img/icons/shape.svg) no-repeat;
+width: 65px;
+height: 65px;
+display: inline-block;
+   }
+
+   p{
+     text-align: center;
+   margin-bottom: 40px;
+   color: #3056D3;
+   font-size: 24px; 
+   }
+   .content{
+      padding: 50px;
+   }
+   .content-images{
+      background-color: bisque;
+      border-radius: 30px;
+      margin-bottom: 50px;
+   }
+
+   .content-images img:not(:first-child){
+      border-radius: 15px;
+   }
+
+   .content-icons{
+      background-color: #3056D3;
+      border-radius: 30px;
+      padding: 50px;
+   }
+
+   .first{
+      background: url(../img/content-icons/GrayGrids.svg) no-repeat;
+      width: 200px;
+      height: 40px;
+      display: inline-block;
+   }
+
+   .second{
+      background: url(../img/content-icons/LineIcons.svg) no-repeat;
+      width: 200px;
+      height: 40px;
+      display: inline-block;
+   }
+
+   .third{
+      background: url(../img/content-icons/Ayro\ UI.svg) no-repeat;
+      width: 200px;
+      height: 40px;
+      display: inline-block;
+   }
+
+   .four{
+      background: url(../img/content-icons/grid-alt.svg) no-repeat;
+      width: 50px;
+      height: 40px;
+      display: inline-block;
+   }
+
+   .five{
+background: url(../img/content-icons/waves.svg) no-repeat;
+      width: 50px;
+      height: 35px;
+      display: inline-block;
+   }
+
+   .six{
+      background: url(../img/content-icons/circle.svg) no-repeat;
+      width: 50px;
+      height: 40px;
+      display: inline-block;
+   }
+   .seven{
+      background: url(../img/content-icons/layers.svg) no-repeat;
+      width: 50px;
+      height: 40px;
+      display: inline-block;
+   }
+
+   .eight{
+      background: url(../img/content-icons/Group.svg) no-repeat;
+      width: 50px;
+      height: 35px;
+      display: inline-block;
+   }
+
+   .nine{
+      background: url(../img/content-icons/reload.svg) no-repeat;
+      width: 100px;
+      height: 40px;
+      display: inline-block;
+   }
