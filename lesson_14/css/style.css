@@ -224,16 +224,13 @@ footer{
    justify-content: space-between;
    margin-bottom: 40px;
 }
-.top {
-}
-.top__logo {
-}
+
+
 .top__nav {
    display: flex;
    gap: 25px;
 }
-.nav {
-}
+
 .nav__item a{
    font-weight: 500;
    font-size: 12px;
