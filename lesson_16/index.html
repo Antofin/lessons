@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Lesson 16</title>
+</head>
+<body>
+   <div class="wraper">
+      <header></header>
+      <main class="main">
+         <div class="billing">
+            <div class="billing__container">
+               <form class="billing__form form-billing" action="#" method="get" enctype="multipart/form-data">
+                  <h2 class="form-billing__title">Billing Details</h2>
+                  <div class="form-billing__iformation-client client-iformation ">
+                     <div class="client-iformation__input">
+                        <input type="text" placeholder="First name*" required>
+                     </div>
+                     <div class="client-iformation__input">
+                        <input type="text" placeholder="Last name*" required>
+                     </div>
+                     <div class="client-iformation__input">
+                        <input type="text" placeholder="Address*" required>
+                     </div>
+                     <div class="client-iformation__input">
+                        <input type="text" placeholder="Address line 2" required>
+                     </div>
+                     <div class="client-iformation__input">
+                        <input type="text" placeholder="Country*" required>
+                     </div>
+                     <div class="client-iformation__input">
+                        <input type="text" placeholder="City/Town*" required>
+                     </div>
+                     <div class="client-iformation__input">
+                        <input type="text" placeholder="Postcode / ZIP*" required>
+                     </div>
+                     <div class="client-iformation__input">
+                        <input type="tel" placeholder="Phone*" required>
+                     </div>
+                     <div class="client-iformation__input">
+                        <input type="text" placeholder="Postcode / ZIP*" required>
+                     </div>
+                     <div class="client-iformation__input">
+                        <input type="tel" placeholder="Phone*" required>
+                     </div>
+                     <textarea  class="client-iformation__additional" placeholder="Additional information" name="additional"></textarea>
+                  </div>
+                  <div class="form-billing__checkbox checkbox">
+                     <div class="checkbox__account">
+                        <input id="account" class="checkbox__input01" value="yes" name="account" checked type="checkbox">
+                        <label class="checkbox__label" for="account">Create Account</label>
+                     </div>
+                     <div class="checkbox__shipping">
+                        <input id="shipping" class="checkbox__input02" value="yes" name="shipping"  type="checkbox">
+                        <label class="checkbox__labe2" for="shipping">Ship to a different address?</label>
+                     </div>
+                  </div>
+                  <button class="form-billing__button" type="submit">Place an Order</button>
+               </form>
+               <form action="#" method="get" enctype="multipart/form-data" class="billing__coupon-code coupon-code">
+                     <div class="coupon-code__title">Apply Coupon to get discount!</div>
+                     <div class="coupon-code__row">
+                        <input class="coupon-code__input" type="text" placeholder="Coupon code" autocomplete="off">
+                        <button class="coupon-code__button" type="button">Apply Code</button>
+                     </div>
+                  </form>
+            </div>
+         </div>
+         <div class="shipping">
+            <div class="shipping__container">
+               <h3 class="shippong__title">Shipping Address</h3>
+               <form class="shiping__address address-shipping" action="#" method="get" enctype="multipart/form-data">
+               <div class="address-shipping__email">
+                  <label class="address-shipping__lable-email" for="01">Email Address </label>
+                  <input class="address-shipping__input-email" placeholder="roni_cost@example.com" name="emailaddress" value="" required id="01" type="email">
+               </div>
+               <div class="address-shipping__password">
+                  <label class="address-shipping__lable-password" for="02">Password</label>
+                  <input class="address-shipping__input-password" placeholder="******************" name="password" value="" id="02" type="password" required>
+               </div>
+               <div class="address-shipping__postcode">
+                  <label class="address-shipping__postcode-label" for="03">Zip/Postal Code</label>
+                  <input class="address-shipping__postcode-input" name="postcode" value="" required id="03" type="text">
+               </div>
+               <div class="address-shipping__login login">
+                  <div class="login__text">You already have an account with us. Sign in or continue as guest.</div>
+                  <div class="login__actions">
+                     <button class="login__button"  type="submit">login</button>
+                  <a class="login__forgot" href="#">Forgot Your Password?</a>
+                  </div>
+               </div>
+               </form>
+               <form class="shipping__methods methods" action="#" method="get" enctype="multipart/form-data">
+                  
+               </form>
+            </div>
+         </div>
+      </main>
+      <footer></footer>
+   </div>
+</body>
+</html>

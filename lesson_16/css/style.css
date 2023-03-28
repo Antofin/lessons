@@ -1,0 +1,305 @@
+@import url(reset.css);
+@import url("https://fonts.googleapis.com/css?family=Inter:500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Oswald:400,500&display=swap");
+.wraper{
+   overflow: clip;
+   min-height: 100%;
+   display: flex;
+   flex-direction: column;
+}
+
+.wraper > main{
+   flex-grow: 1;
+}
+
+.billing{
+   font-family: "Inter" ,sans-serif;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   color: #637381;
+}
+
+
+.billing__container {
+   max-width: 730px;
+   margin: 0 auto;
+   padding: 50px 15px;
+}
+
+.billing__form{
+   margin-bottom: 55px;
+}
+
+.form-billing__title {
+   font-size:24px;
+   font-weight: 700;
+   color: #212B36;
+   line-height: 1.25;
+   margin-bottom: 30px;
+}
+.form-billing__iformation-client{
+   margin-bottom: 35px;
+}
+.client-iformation {
+   display: flex;
+   flex-wrap: wrap;
+   row-gap: 30px;
+   column-gap: 28px;
+}
+.client-iformation input{
+   border-radius: 7px;
+   width: 100%;
+   border: 1px solid #E5E5E5;
+   line-height: 3.375;
+   padding-left: 15px;
+}
+
+.client-iformation input:focus{
+   outline: 1px solid #3056D3;
+}
+
+
+.client-iformation__input{
+   flex: 0 1 48%;
+}
+
+.client-iformation__additional{
+   flex: 0 1 100%;
+   border: 1px solid #E5E5E5;
+   border-radius: 7px;
+   resize: none;
+   height: 180px;
+   padding: 25px;
+}
+
+.client-iformation__additional:focus{
+   outline: 1px solid #3056D3;
+   border-radius: 7px;
+}
+
+
+.checkbox__label .checkbox__label2{
+   color: #637381;
+}
+
+.form-billing__checkbox:not(:last-child){
+margin-bottom: 25px;
+}
+
+.form-billing__checkbox >:not(:last-child){
+margin-bottom: 25px;
+}
+
+.checkbox__account {
+   position: relative;
+}
+.checkbox__input01 {
+position: absolute;
+top: 0;
+left: 0;
+width: 0;
+height: 0;
+opacity: 0;
+}
+
+.checkbox__input01:checked + .checkbox__label::before{
+   background: url(../img/bird.svg) center/ 12px 8px  no-repeat;
+}
+.checkbox__label {
+   cursor: pointer;
+   display: inline-flex;
+   gap: 14px;
+}
+.checkbox__label::before{
+   content: "";
+   flex: 0 0 22px;
+   width: 22px;
+   height: 22px;
+   border: 1px solid #E7E7E7;
+   border-radius: 7px;
+}
+.checkbox__shipping {
+position: relative;
+}
+.checkbox__input02 {
+position: absolute;
+top: 0;
+left: 0;
+width: 0;
+height: 0;
+opacity: 0;
+}
+.checkbox__input02:checked + .checkbox__labe2::before{
+   background: url(../img/bird.svg) center/ 12px 8px  no-repeat;
+}
+
+.checkbox__labe2 {
+   cursor: pointer;
+   display: inline-flex;
+   gap: 14px;
+}
+
+.checkbox__labe2::before{
+   content: "";
+   flex: 0 0 22px;
+   width: 22px;
+   height: 22px;
+   border: 1px solid #E7E7E7;
+   border-radius: 7px;
+}
+
+.form-billing__button{
+   width: 100%;
+   text-align: center;
+   background-color: #3056D3;
+   font-weight: 500;
+   line-height: 1.5;
+   padding: 12px 22px;
+   border-radius: 7px;
+   color: #ffffff;
+}
+
+.coupon-code__title {
+   color: #212B36;
+   font-weight: 600;
+   line-height: 1.3;
+   font-size: 20px;
+}
+
+.coupon-code__title:not(:last-child){
+   margin-bottom: 25px;
+}
+.coupon-code__row {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+}
+.coupon-code__input {
+   width: 324px;
+   border: 1px solid #E7E7E7;
+   border-radius: 7px;
+   padding: 12px 22px;
+}
+
+.coupon-code__input:focus{
+   outline: 1px solid #3056D3;
+}
+.coupon-code__button {
+   font-weight: 600;
+   line-height: 1.5;
+   color: #ffffff; 
+   background-color: #212B36;
+   padding: 12px 24px;
+   border-radius: 7px;
+}
+
+.shipping {
+   font-family: "Roboto";
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.25 ;
+   color: #3F3F3F;
+}
+.shipping__container {
+   max-width: 636px;
+   padding: 0 15px;
+   margin: 0 auto;
+}
+.shippong__title {
+   font-family: "Oswald";
+   font-size: 24px;
+   font-weight: 400;
+   line-height: 2.833;
+   color: #000000;
+}
+
+
+.shiping__address input {
+   border: 1px solid #C4C4C4;
+   line-height: 2.5;
+   padding: 0px 16px;
+}
+.address-shipping {
+padding-bottom: 25px;
+border-bottom: 1px solid #C4C4C4;
+}
+.address-shipping__email {
+  display: flex;
+  justify-content: space-between;
+}
+.address-shipping__email:not(:last-child){
+   margin-bottom: 27px;
+}
+.address-shipping__lable-email {
+   line-height: 1.6;
+}
+.address-shipping__input-email {
+    flex: 0 0 74%;
+}
+.address-shipping__password {
+   display: flex;
+  justify-content: space-between;
+}
+.address-shipping__password:not(:last-child){
+   margin-bottom: 27px;
+}
+.address-shipping__lable-password {
+   line-height: 1.6;
+}
+.address-shipping__input-password {
+   flex: 0 0 74%;
+}
+.address-shipping__postcode {
+   display: flex;
+   justify-content: space-between;
+}
+
+.address-shipping__postcode-label {
+   line-height: 1.6;
+}
+.address-shipping__postcode-input {
+   flex: 0 0 74%;
+}
+
+.login__text{
+   line-height: 2.5;
+   color: #828282;
+   font-size: 14px;
+   font-weight: 400;
+}
+.login__actions {
+   display: flex;
+   gap: 25px;
+}
+.login__button {
+   text-transform: uppercase;
+   padding: 15px 50px;
+   font-weight: 500;
+   font-family: "Oswald",sans-serif;
+   font-size: 14px;
+   line-height: 1.5;
+   color: #fff;
+   background-color: #000000;
+   display: inline-block;
+   letter-spacing: 0.5px;
+   
+}
+.login__forgot {
+   align-self: center;
+   color: #0F6DB1;
+}
+
+.shipping__methods {
+   padding-top: 39px;
+}
+.methods label {
+   color: #3F3F3F;
+}
+
+
+
+
+
+
