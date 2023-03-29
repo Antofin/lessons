@@ -71,10 +71,11 @@
          </div>
          <div class="shipping">
             <div class="shipping__container">
-               <h3 class="shippong__title">Shipping Address</h3>
+               
                <form class="shiping__address address-shipping" action="#" method="get" enctype="multipart/form-data">
+                  <h3 class="address-shipping__title">Shipping Address </h3>
                <div class="address-shipping__email">
-                  <label class="address-shipping__lable-email" for="01">Email Address </label>
+                  <label class="address-shipping__lable-email" for="01">Email Address <span class="red-star">*</span> </label>
                   <input class="address-shipping__input-email" placeholder="roni_cost@example.com" name="emailaddress" value="" required id="01" type="email">
                </div>
                <div class="address-shipping__password">
@@ -94,7 +95,60 @@
                </div>
                </form>
                <form class="shipping__methods methods" action="#" method="get" enctype="multipart/form-data">
-                  
+                  <div class="methods__information-user information-user">
+                     <div class="information-user__item">
+                        <label for="04">First Name <span class="red-star">*</span> </label>
+                        <input id="04" type="text" required name="first-name" value="">
+                     </div>
+                     <div class="information-user__item">
+                        <label for="05">Last Name <span class="red-star">*</span></label>
+                        <input id="05" type="text" required name="last-name" value="">
+                     </div>
+                     <div class="information-user__item">
+                        <label for="06">Company</label>
+                        <input id="06" type="text" name="company" value="">
+                     </div>
+                     <div class="information-user__item item">
+                        <label for="07">Street Address <span class="red-star">*</span></label>
+                        <div class="item__wraper">
+                        <input id="07" type="text" required name="street-adress" value="">
+                        <input id="07" type="text"  name="street-adress" value="">
+                        <input id="07" type="text"  name="street-adress" value="">
+                        </div>
+                     </div>
+                     <div class="information-user__item">
+                        <label for="08">Country <span class="red-star">*</span> </label>
+                        <input id="08" type="text" required name="country" value="">
+                     </div>
+                     <div class="information-user__item">
+                        <label for="08">State/Province<span class="red-star">*</span> </label>
+                        <input id="08" type="text" required name="country" value="">
+                     </div>
+                  </div>
+                  <div class="methods__radio radio-methods">
+                     <h2 class="radio-methods__title">Shipping Methods</h2>
+                     <div class="radio-methods__item item-radio">
+                        <input class="item-radio__input" checked id="09" required autocomplete="off" value="5$" type="radio" name="shiping-methods"> 
+                        <label class="item-radio__label" for="09">$5.00</label>
+                        
+                        <div class="item-radio__content">
+                        <div class="item-radio__text" >Fixed</div>
+                        <div class="item-radio__text">Flat Rate</div>
+                        </div>
+                     </div>
+                     <div class="radio-methods__item item-radio">
+                           <input class="item-radio__input" id="10" required autocomplete="off" value="10$" type="radio" name="shiping-methods">
+                           <label class="item-radio__label" for="10">$10.00</label>
+                        <div class="item-radio__content ">
+                           <div class="item-radio__text">Table Rate</div>
+                           <div class="item-radio__text">Best Way</div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="methods__actions actions-mathods">
+                     <button type="submit" class="actions-mathods__button">next</button>
+                     <a class="actions-mathods__back" href="#">Back</a>
+                  </div>
                </form>
             </div>
          </div>
