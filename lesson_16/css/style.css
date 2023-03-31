@@ -508,5 +508,30 @@ font-weight: 600;
 }
 
 @media (max-width:590px) {
-   
+   .information-user__item >input{
+      flex: 0 0 100%;
+      border: 1px solid #C4C4C4;
+      padding: 12px 20px;
+   }
+   .item__wraper {
+      display: flex;
+      flex-wrap: wrap;
+      flex: 0 0 100%;
+      gap: 14px;
+   }
+
+   .information-user__item {
+      display:flex ;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      row-gap: 5px;
+      column-gap: 5px;
+      }
+      .information-user__item:not(:last-child){
+         margin-bottom: 14px;
+      }
+
+      .information-user {
+         padding-bottom: 36px;
+      }
 }
