@@ -37,9 +37,14 @@
    font-weight: 700;
    color: #212B36;
    line-height: 1.25;
+   }
+
+.form-billing__title:not(:last-child){
    margin-bottom: 30px;
 }
-.form-billing__iformation-client{
+
+
+.form-billing__iformation-client:not(:last-child){
    margin-bottom: 35px;
 }
 .client-iformation {
@@ -53,7 +58,6 @@
    width: 100%;
    border: 1px solid #E5E5E5;
    line-height: 1.5;
-   
    padding: 10px 20px;
 }
 
@@ -63,7 +67,7 @@
 
 
 .client-iformation__input{
-   flex: 0 1 48%;
+   flex: 0 0 48%;
 }
 
 .client-iformation__additional{
@@ -183,7 +187,7 @@ opacity: 0;
    gap: 20px;
 }
 .coupon-code__input {
-   flex: 0 0 324px;
+   flex: 0 1 324px;
    border: 1px solid #E7E7E7;
    border-radius: 7px;
    padding: 12px 22px;
@@ -476,4 +480,33 @@ font-weight: 600;
 .actions-mathods__back:hover{
    color: #000000;
    text-shadow: 0 0.2px #000000;
+}
+
+
+@media( max-width:730px){
+   .billing__container {
+      max-width: 730px;
+      margin: 0 auto;
+      padding: 30px 15px;
+   }
+   .form-billing__title:not(:last-child){
+      margin-bottom: 20px;
+   }
+   .client-iformation {
+      row-gap: 15px;
+      column-gap: 28px;
+   }
+   .client-iformation__input{
+      flex: 0 0 100%;
+   }
+   .billing__form{
+      margin-bottom: 35px;
+   }
+   .form-billing__iformation-client:not(:last-child){
+      margin-bottom: 20px;
+   }
+}
+
+@media (max-width:590px) {
+   
 }
