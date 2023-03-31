@@ -247,7 +247,10 @@ border-bottom: 1px solid #C4C4C4;
 .address-shipping__email {
   display: flex;
   flex-wrap: wrap;
+  column-gap: 20px;
+  row-gap: 5px;
   justify-content: space-between;
+  align-items: flex-start;
 }
 .address-shipping__email:not(:last-child){
    margin-bottom: 27px;
@@ -261,8 +264,10 @@ border-bottom: 1px solid #C4C4C4;
 .address-shipping__password {
    display: flex;
    flex-wrap: wrap;
-   gap: 20px;
+   column-gap: 20px;
+   row-gap: 5px;
    justify-content: space-between;
+   align-items: flex-start;
 }
 .address-shipping__password:not(:last-child){
    margin-bottom: 27px;
@@ -277,6 +282,9 @@ border-bottom: 1px solid #C4C4C4;
    display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
+   align-items: flex-start;
+   column-gap: 20px;
+   row-gap: 5px;
 }
 
 .address-shipping__postcode-label {
@@ -534,4 +542,17 @@ font-weight: 600;
       .information-user {
          padding-bottom: 36px;
       }
+}
+
+@media (max-width:550px) {
+   .address-shipping__input-email {
+      flex: 0 0 100%;
+  }
+
+  .address-shipping__input-password {
+   flex: 0 0 100%;
+}
+.address-shipping__postcode-input {
+   flex: 0 0 100%;
+}
 }
