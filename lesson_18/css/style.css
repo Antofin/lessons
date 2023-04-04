@@ -1,0 +1,103 @@
+@import url(reset.css);
+
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,500,700&display=swap");
+
+
+.wraper{
+   overflow: clip;
+   min-height: 100%;
+   display: flex;
+   flex-direction: column;
+}
+
+.wraper >main{
+   flex-grow: 1;
+}
+
+body{
+   font-family: "Poppins" , sans-serif;
+   font-size: 12px;
+   line-height: 2.083 ;
+   font-weight: 500;
+}
+.header {
+  
+}
+.header__container {
+   min-height: 100px;
+   max-width: 1270px;
+   margin: 0 auto;
+   padding: 5px 15px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+   column-gap: 20px;
+   row-gap: 10px;
+}
+.header__logo {
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 139%;
+   color:#495057 ;
+   display: inline-flex;
+   align-self: center;
+}
+.header__logo::after{
+   content: ".";
+   color: #DDBEA9;
+   
+}
+
+.header__menu {
+}
+.menu {
+}
+.menu__list {
+   display: flex;
+   column-gap: 25px;
+   align-items: center;
+}
+.menu__item {
+color: rgba(73, 80, 87, 0.5);
+
+
+}
+.menu__link {
+}
+.header__actions{
+}
+.actions {
+   display: flex;
+   align-items: center;
+   gap: 25px;
+}
+.actions__sotial-networks{
+   display: flex;
+   column-gap: 20px;
+   align-items: center;
+}
+.actions__list {
+   display: flex;
+   align-items: center;
+   gap: 25px;
+}
+.actions__sotial-networks:not(:last-child)::after{
+   content: "";
+   background-color: #E5E5E5;
+   flex: 0 0 1px;
+   height: 25px;
+}
+.actions__item {
+   color: rgba(73, 80, 87, 0.5);
+}
+.actions__link {
+}
+.actions__search {
+   flex: 0 0 12px;
+   height: 40px;
+   align-items: stretch;
+   background: url(../img/icons/search.svg) center no-repeat  ;
+   }
+
