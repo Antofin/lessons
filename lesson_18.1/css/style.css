@@ -172,6 +172,17 @@ body{
    outline: 1px solid #DDBEA9;
 }
 
+@media (max-width:616px){
+   .header__container{
+      padding-top: 10px;
+      padding-bottom: 15px;
+      row-gap: 10px;
+   }
+   .menu-header__link{
+      font-size: 14px;
+   }
+}
+
 
 .slider__content {
    position: relative;
@@ -438,6 +449,10 @@ body{
    .topics__title{
       max-width: 400px;
       text-align: center;
+   }
+   .topics{
+      padding-top: 50px;
+      padding-bottom: 50px;
    }
 }
 
