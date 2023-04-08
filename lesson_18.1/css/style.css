@@ -493,10 +493,15 @@ body{
    background-color: #212529;
 }
 .footer__container {
-   max-width: 1270px;
    padding: 100px 15px;
-   margin: 0 auto;
    min-height: 325px;
+}
+
+@media(max-width:767.98px){
+   .footer__container {
+      padding: 50px 15px;
+      min-height: 225px;
+   }
 }
 .footer__top {
    display: flex;
@@ -560,7 +565,14 @@ body{
    color: #F8F9FA80;
     transition: color 0.3s;
 }
-
+@media(max-width:767.98px){
+   .footer__top {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+   }
+}
 .footer__bottom {
    display: flex;
    justify-content: space-between;
