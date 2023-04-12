@@ -38,14 +38,18 @@ body{
 grid-row: span 2;
 }
 
-.cards-main__item:nth-child(2) {
-   background-color: #D9EBFB;
-}
-.cards-main__image-left{
+
+.cards-main__item-left{
    position: relative;
    padding-bottom: 85.964912%; /* 490/570 */
+   
 }
-.cards-main__image-left img{
+.cards-main__item-right{
+   position: relative;
+   padding-bottom: 40.350877%; /* 230/570 */
+}
+
+.cards-main__image-left{
    max-width: 100%;
    position: absolute;
    top: 0;
@@ -55,7 +59,7 @@ grid-row: span 2;
    object-fit: cover;
 }
 
-.cards-main__image-right img{
+.cards-main__image-right{
    max-width: 100%;
    position: absolute;
    top: 0;
@@ -64,10 +68,7 @@ grid-row: span 2;
    height: 100%;
    object-fit: cover;
 }
-.cards-main__image-right{
-   position: relative;
-   padding-bottom: 40.350877%; /* 230/570 */
-}
+
 .cards-main__content {
 }
 .cards-main__link {
