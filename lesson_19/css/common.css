@@ -1,0 +1,13 @@
+.title{
+font-weight: 700;
+font-size: 40px;
+color: #212B36;
+line-height: 112.5%; /* 45/40 */
+}
+
+.text{
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 150%; /* 24/16 */
+   color: #637381;
+}

@@ -1,0 +1,76 @@
+@import url(reset.css);
+@import url(common.css);
+@import url("https://fonts.googleapis.com/css?family=Inter:500,600,700&display=swap");
+
+body{
+   font-family: "Inter", sans-serif;
+}
+.wraper{
+   overflow: hidden;
+   height: 100%;
+
+   display: flex;
+   flex-direction: column;
+}
+
+.wraper > main{
+   flex-grow: 1;
+}
+
+.main {
+}
+.main__cards {
+}
+.cards-main {
+}
+.cards-main__container {
+   max-width: 1200px;
+   padding: 67px 15px 80px;
+   margin: 0 auto;
+}
+.cards-main__grid {
+   display: grid;
+   grid-template:repeat(2,1fr) / repeat(2,1fr);
+   gap: 30px;
+}
+
+.cards-main__item:nth-child(1){
+grid-row: span 2;
+}
+
+.cards-main__item:nth-child(2) {
+   background-color: #D9EBFB;
+}
+.cards-main__image-left{
+   position: relative;
+   padding-bottom: 85.964912%; /* 490/570 */
+}
+.cards-main__image-left img{
+   max-width: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.cards-main__image-right img{
+   max-width: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.cards-main__image-right{
+   position: relative;
+   padding-bottom: 40.350877%; /* 230/570 */
+}
+.cards-main__content {
+}
+.cards-main__link {
+}
+.cards-main__title {
+}
