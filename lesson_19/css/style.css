@@ -112,3 +112,134 @@ grid-row: span 2;
       
    }
 }
+
+.main__latest-products {
+}
+.latest-products {
+   background-color: #FAFAFA;
+}
+.latest-products__container {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 120px 15px;
+}
+.latest-products__header {
+   max-width: 490px;
+   margin: 0 auto;
+   text-align: center;
+}
+.latest-products__header:not(:last-child){
+   margin-bottom: 70px;
+}
+.latest-products__header >*:not(:last-child){
+   margin-bottom: 15px;
+}
+.latest-products__grid{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   gap: 30px;
+}
+
+.latest-products__item {
+   border-radius: 7px;
+   background-color:#FFFFFF ;
+}
+.item-latest-products {
+}
+.item-latest-products__image {
+   position: relative;
+   padding-bottom: 78.804348%; /* 290/368 */
+}
+.item-latest-products__image img{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: contain;
+}
+
+.item-latest-products__content{
+   padding: 25px;
+   display: flex;
+   flex-direction: column;
+   row-gap: 15px;
+}
+.item-latest-products__title {
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 130%; /* 26/20 */
+   color: #212B36;
+}
+.item-latest-products__footer {
+   
+}
+
+.latest-products__form {
+   display: inline-block;
+}
+.form-rating {
+}
+.form-rating__simple {
+   position: relative;
+   font-size: 20px;
+   display: inline-block;
+}
+.form-rating__simple::before{
+   content: " ★★★★★";
+   display: block;
+}
+.form-rating__items {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   display: flex;
+   flex-direction: row-reverse;
+   overflow: hidden;
+}
+.form-rating__item {
+   position: absolute;
+   width: 0%;
+   height: 0%;
+   opacity: 0;
+   visibility: hidden;
+   top: 0;
+   left: 0;
+   
+}
+.form-rating__label {
+   flex: 0 0 20%;
+   height: 100%;
+   cursor: pointer;
+   color: #ffffff;
+}
+.form-rating__label::before{
+   content: "★";
+   display: block;
+   transition: color ease 0.3s;
+}
+.form-rating__item:checked,
+.form-rating__item ~ .form-rating__label {
+color: #FFA645;
+}
+
+.form-rating__label:hover,
+.form-rating__label:hover ~ .form-rating__label,
+.form-rating__label:checked ~ .form-rating__label:hover{
+color: #e2b98e;
+}
+
+.item-latest-products__reviews-sum {
+   font-weight: 500;
+   color: #637381;
+   font-size: 16px;
+   line-height: 150%; /* 24/16 */
+}
+.item-latest-products__product-price {
+   font-weight: 600;
+   font-size: 16px;
+   line-height:150% ;
+   color: #212B36;
+}
