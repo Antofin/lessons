@@ -55,7 +55,7 @@ grid-row: span 2;
    height: 100%;
    z-index: 2;
    min-height: 230px;
-   padding: 40px;
+   padding: 40px 168px 40px 40px;
 }
 
 .cards-main__image-left{
@@ -76,6 +76,7 @@ grid-row: span 2;
    height: 100%;
    object-fit: cover;
    z-index: 3;
+   object-position: right;
 }
 
 .cards-main__content {
