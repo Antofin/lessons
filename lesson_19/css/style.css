@@ -103,9 +103,12 @@ grid-row: span 2;
       display: grid;
       grid-template: repeat(4,230px)/repeat(1,1fr) ;
       gap: 30px;
-      
-      
-   }
+      }
+      .cards-main__container {
+         max-width: 1200px;
+         padding: 47px 15px 50px;
+         margin: 0 auto;
+      }
 }
 
 
@@ -409,8 +412,7 @@ padding: 15px 5px 15px 25px;
    margin-right: -1px;
    margin-bottom: -1px;
 }
-.item-trending {
-}
+
 
 .item-trending__image {
    position: relative;
@@ -481,4 +483,17 @@ padding: 15px 5px 15px 25px;
 }
 .reting-trending__rewiews:hover {
    color: #0d1115;
+}
+@media (max-width:544.98px){
+   .trending-main__container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding:40px 15px ;
+   }
+   .trending-main__header:not(:last-child){
+      margin-bottom: 30px;
+   }
+   .trending-main__grid {
+      grid-template-columns: repeat(2,1fr);
+   }
 }
