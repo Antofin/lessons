@@ -1,0 +1,122 @@
+@import url(reset.css);
+@import url(common.css);
+@import url("https://fonts.googleapis.com/css?family=Inter:500,600,700&display=swap");
+
+body{
+   font-family: "Inter",sans-serif;
+   line-height: 1.5; /* 24/16 */
+   font-size: 16px;
+}
+.wraper{
+   overflow: clip;
+   min-height: 100%;
+
+   display: flex;
+   flex-direction: column;
+}
+
+.wraper > main{
+   flex-grow: 1;
+}
+
+.main__latest-colections {
+}
+.latest-colections {
+}
+.latest-colections__container {
+   max-width: 1200px;
+   padding: 120px 15px;
+   margin: 0 auto;
+}
+.latest-colections__heder {
+   max-width: 500px;
+   margin: 0 auto;
+   text-align: center;
+}
+.latest-colections__heder:not(:last-child){
+   margin-bottom: 70px;
+}
+.latest-colections__sub-title:not(:last-child) {
+   margin-bottom: 8px;
+}
+
+.latest-colections__title:not(:last-child) {
+   margin-bottom: 15px;
+}
+.latest-colections__items {
+   display:grid ;
+   grid-template-columns: repeat(4,1fr);
+   gap: 30px;
+}
+.latest-colections__item {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+
+.item-latest-colections__img {
+   position: relative;
+   min-height: 300px;
+   border-radius: 7px;
+}
+.item-latest-colections__img img{
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+ border-radius: 7px;
+}
+.item-latest-colections__footer {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+}
+
+.item-latest-colections__price {
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 1.5; /* 24/16 */
+   color: #3056D3;
+}
+
+@media (max-width:986.98px){
+   .latest-colections__items {
+      grid-template-columns: repeat(3,1fr);
+      gap: 20px;
+   }
+   .latest-colections__container {
+      padding: 50px 15px;
+   }
+   .latest-colections__heder:not(:last-child){
+      margin-bottom: 50px;
+   }
+}
+@media (max-width:645.98px){
+   .latest-colections__items {
+      grid-template-columns: repeat(2,1fr);
+   }
+   .latest-colections__container {
+      padding: 30px 15px;
+   }
+   .latest-colections__heder:not(:last-child){
+      margin-bottom: 30px;
+   }
+}
+@media (max-width:445.98px){
+   .latest-colections__items {
+      grid-template-columns: repeat(1,1fr);
+   }
+   .latest-colections__container {
+      padding: 30px 15px;
+   }
+   .item-latest-colections__img {
+      position: relative;
+      min-height: 200px;
+      border-radius: 7px;
+   }
+   .latest-colections__heder:not(:last-child){
+      margin-bottom: 20px;
+   }
+}
