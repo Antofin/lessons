@@ -138,7 +138,7 @@ color:#637381 ;
 
 .feature-products__container {
    max-width: 1200px;
-   padding: 120px 15px;
+   padding:0px 15px 120px 15px;
    margin: 0 auto;
 }
 .feature-products__heder {
